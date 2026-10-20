@@ -1,5 +1,3 @@
-CREATE DATABASE IF NOT EXISTS passkey_portal CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE passkey_portal;
 CREATE TABLE users (
  id CHAR(64) CHARACTER SET ascii COLLATE ascii_bin PRIMARY KEY,
  username VARCHAR(60) CHARACTER SET ascii COLLATE ascii_bin NOT NULL UNIQUE,
